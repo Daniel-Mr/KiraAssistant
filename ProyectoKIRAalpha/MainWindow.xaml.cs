@@ -15,6 +15,9 @@ using System.Windows.Shapes;
 using System.Speech.Recognition; // reconocedor
 using System.Speech.Synthesis; // kira
 using System.Globalization;
+using System.Net;
+using System.IO;
+
 namespace ProyectoKIRAalpha
 {
     /// <summary>
@@ -25,7 +28,8 @@ namespace ProyectoKIRAalpha
         SpeechRecognitionEngine rec = new SpeechRecognitionEngine();
         SpeechSynthesizer kira = new SpeechSynthesizer();
         Random r = new Random();
-
+        //tmp
+        string clientaddress = "http://192.168.137.213";
 
         public MainWindow()
         {
@@ -36,7 +40,7 @@ namespace ProyectoKIRAalpha
         {
             rec.SetInputToDefaultAudioDevice();
 
-            Choices frases = new Choices(new string[] { "hola", "como estas", "gracias", "abre el facebook","abre el paint" });
+            Choices frases = new Choices(new string[] { "hola", "enciende el bombillo", "como estas", "gracias", "abre el facebook","abre el paint" });
 
             GrammarBuilder gb = new GrammarBuilder();
             gb.Append(frases);
@@ -61,6 +65,13 @@ namespace ProyectoKIRAalpha
             lblTextoReconocido.Content = e.Result.Text;
             switch (e.Result.Text)
             {
+
+                case "enciende el bombillo": {
+                        toggle("01");
+                        kira.Speak("Muy bien jefe");
+                        break;
+                    }
+
                 case "hola":
                     kira.Speak("Hola jefe, como estas?");
                     break;
@@ -91,6 +102,22 @@ namespace ProyectoKIRAalpha
                 default:
                     break;
             }
+
+        }
+
+        private void toggle(string pinNumber)
+        {
+            WebClient client = new WebClient();
+
+            var uri = string.Format("{0}/gpio/{1}/",clientaddress,pinNumber);
+
+            Stream data = client.OpenRead(uri);
+            StreamReader reader = new StreamReader(data);
+            string s = reader.ReadToEnd();
+            Console.WriteLine(s);
+            data.Close();
+            reader.Close();
+
         }
     }
 }
