@@ -1,0 +1,15 @@
+C:\Users\Hp Pavilion DV4\Source\Repos\KiraAssistant2\ProyectoKIRAalpha\obj\Debug\ProyectoKIRAalpha.csprojAssemblyReference.cache
+C:\Users\Hp Pavilion DV4\Source\Repos\KiraAssistant2\ProyectoKIRAalpha\obj\Debug\MainWindow.g.cs
+C:\Users\Hp Pavilion DV4\Source\Repos\KiraAssistant2\ProyectoKIRAalpha\obj\Debug\App.g.cs
+C:\Users\Hp Pavilion DV4\Source\Repos\KiraAssistant2\ProyectoKIRAalpha\obj\Debug\ProyectoKIRAalpha_MarkupCompile.cache
+C:\Users\Hp Pavilion DV4\Source\Repos\KiraAssistant2\ProyectoKIRAalpha\obj\Debug\ProyectoKIRAalpha_MarkupCompile.lref
+C:\Users\Hp Pavilion DV4\Source\Repos\KiraAssistant2\ProyectoKIRAalpha\bin\Debug\ProyectoKIRAalpha.exe.config
+C:\Users\Hp Pavilion DV4\Source\Repos\KiraAssistant2\ProyectoKIRAalpha\bin\Debug\ProyectoKIRAalpha.exe
+C:\Users\Hp Pavilion DV4\Source\Repos\KiraAssistant2\ProyectoKIRAalpha\bin\Debug\ProyectoKIRAalpha.pdb
+C:\Users\Hp Pavilion DV4\Source\Repos\KiraAssistant2\ProyectoKIRAalpha\obj\Debug\MainWindow.baml
+C:\Users\Hp Pavilion DV4\Source\Repos\KiraAssistant2\ProyectoKIRAalpha\obj\Debug\ProyectoKIRAalpha.g.resources
+C:\Users\Hp Pavilion DV4\Source\Repos\KiraAssistant2\ProyectoKIRAalpha\obj\Debug\ProyectoKIRAalpha.Properties.Resources.resources
+C:\Users\Hp Pavilion DV4\Source\Repos\KiraAssistant2\ProyectoKIRAalpha\obj\Debug\ProyectoKIRAalpha.csproj.GenerateResource.cache
+C:\Users\Hp Pavilion DV4\Source\Repos\KiraAssistant2\ProyectoKIRAalpha\obj\Debug\ProyectoKIRAalpha.csproj.CoreCompileInputs.cache
+C:\Users\Hp Pavilion DV4\Source\Repos\KiraAssistant2\ProyectoKIRAalpha\obj\Debug\ProyectoKIRAalpha.exe
+C:\Users\Hp Pavilion DV4\Source\Repos\KiraAssistant2\ProyectoKIRAalpha\obj\Debug\ProyectoKIRAalpha.pdb
